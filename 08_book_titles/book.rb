@@ -1,6 +1,6 @@
-LITTLE_WORDS = ["a", "an", "and", "in", "of", "the"]
-
 class Book
+  LITTLE_WORDS = ["a", "an", "and", "in", "of", "the"]
+
   attr_reader :title
 
   def title=(title)
