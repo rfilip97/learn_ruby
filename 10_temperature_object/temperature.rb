@@ -46,15 +46,3 @@ class Temperature
     f_temp.round(2)
   end
 end
-
-class Celsius < Temperature
-  def initialize(temp)
-    super(CELSIUS => temp)
-  end
-end
-
-class Fahrenheit < Temperature
-  def initialize(temp)
-    super(FAHRENHEIT => temp)
-  end
-end
